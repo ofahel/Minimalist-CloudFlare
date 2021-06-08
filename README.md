@@ -40,7 +40,7 @@ $params = array(
               "content" => "8.8.8.8",
               "ttl" => 120 /*OPTIONAL*/,
               "priority" => 10 /*OPTIONAL*/,
-			     "proxied" => true /*OPTIONAL*/);
+              "proxied" => true /*OPTIONAL*/);
 $CloudFlare->createRecord($params);
 
 //Edit/Update Dns Record
@@ -63,7 +63,7 @@ $params = array(
               "proxied" => true,
               "page" => 0,
               "order" => 10,
-			     "content" => true);
+              "content" => true);
 CloudFlare->listRecords($params /*OPTIONAL*/);
 
 //Delete DNS Record
@@ -133,7 +133,7 @@ $CloudFlare->deleteRecord($record_id);
 ## ️📑️ TODO
 
 - ~~Implement (**delete**) DNS Records️~~ (Done)
-- ~~Implement (**edit**) DNS Records~~
+- ~~Implement (**edit**) DNS Records~~ (Done)
 - ~~Implement (**list**) DNS Records~~ (Done)
 
 ## Development
