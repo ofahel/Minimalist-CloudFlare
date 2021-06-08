@@ -120,16 +120,20 @@ $CloudFlare->deleteRecord($record_id);
 
 ## API Methods
 
-| Method       | Description                                  | Parameters                                     |
-| ------------ | -------------------------------------------- | ---------------------------------------------- |
-| CURL         | Execute your own PostField to CloudFlare API | API Type, Posts (json string)                  |
-| changeZone   | Change Zone prop                             | Zone(string)                                   |
-| createRecord | Create a new Record                          | Array Keys(type, sub_domain, content, proxied) |
+| Method       | Description                                  | Parameters                                            |
+| ------------ | -------------------------------------------- | ----------------------------------------------        |
+| CURL         | Execute your own PostField to CloudFlare API | API Type, Posts (json string)                         |
+| changeZone   | Change Zone prop                             | Zone(string)                                          |
+| createRecord | Create a new Record                          | Array Keys(type, name, content, proxied)              |
+| listRecords  | List zone DNS Records                        | Array Keys(type, name, proxied, content, page, order) |
+| updateRecord | Create a new Record                          | Array Keys(type, name, content, ttl, proxied)         |
+| deleteRecord | Delete a Record by their ID                  | Record ID(string)                                     |
+
 
 ## ️📑️ TODO
 
 - ~~Implement (**delete**) DNS Records️~~ (Done)
-- Implement (**edit**) DNS Records
+- ~~Implement (**edit**) DNS Records~~
 - ~~Implement (**list**) DNS Records~~ (Done)
 
 ## Development
