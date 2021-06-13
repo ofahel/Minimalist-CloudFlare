@@ -1,6 +1,6 @@
-# Minimalist CloudFlare PHP API
+# Minimalist CloudFlare API
 
-## _The fastest and simplest PHP CF API_
+## _The fastest and simplest PHP CloudFlare API_
 
 [![ZeosDev](https://i.imgur.com/fHbKdRA.png)](https://zeos.dev)
 
