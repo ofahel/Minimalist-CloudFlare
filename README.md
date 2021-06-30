@@ -30,7 +30,7 @@ Follow the example and voilà.
 <?php
 include("cf_api.php");
 
-//Instantiate the API class
+//Instantiate the API class => (Email, CF Auth key, Zone ID)
 $CloudFlare = new CloudFlareAPI("email@email.com", "9ca34...", "2fc20...");
 
 //Create A DNS Record
