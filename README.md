@@ -43,8 +43,8 @@ $params = array(
               "proxied" => true /*OPTIONAL*/);
 $CloudFlare->createRecord($params);
 
-//Edit/Update Dns Record
 
+//Edit/Update Dns Record
 $record_id = "27eeb..."; //Record ID
 $params = array(
                'type' => 'A',
@@ -65,6 +65,7 @@ $params = array(
               "order" => 10,
               "content" => true);
 $CloudFlare->listRecords($params /*OPTIONAL*/);
+
 
 //Delete DNS Record
 $record_id = "59ae3..."; //Record ID
