@@ -149,3 +149,11 @@ GNU General Public License
 [jobs_wiki]: https://en.wikipedia.org/wiki/Steve_Jobs
 [jobs_quote]: https://www.bloomberg.com/news/articles/1998-05-25/steve-jobs-theres-sanity-returning
 [curl]: https://en.wikipedia.org/wiki/CURL
+[cf_a]: https://www.cloudflare.com/learning/dns/dns-records/dns-a-record/
+[cf_cname]: https://www.cloudflare.com/learning/dns/dns-records/dns-cname-record/
+[cf_mx]: https://www.cloudflare.com/learning/dns/dns-records/dns-mx-record/
+[cf_txt]: https://www.cloudflare.com/learning/dns/dns-records/dns-txt-record/
+[cf_ns]: https://www.cloudflare.com/learning/dns/dns-records/dns-ns-record/
+[cf_soa]: https://www.cloudflare.com/learning/dns/dns-records/dns-soa-record/
+[cf_srv]: https://www.cloudflare.com/learning/dns/dns-records/dns-srv-record/
+[cf_ptr]: https://www.cloudflare.com/learning/dns/dns-records/dns-ptr-record/
