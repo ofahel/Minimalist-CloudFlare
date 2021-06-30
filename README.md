@@ -2,7 +2,7 @@
 
 ## _The fastest and simplest PHP CloudFlare API_
 
-[![ZeosDev](https://i.imgur.com/fHbKdRA.png)](https://zeos.dev)
+[![ZeosDev](https://i.imgur.com/hSyuS32.png)](https://github.com/ofahel/)
 
 This project is the simplest way to manage DNS Records on CloudFlare.
 
