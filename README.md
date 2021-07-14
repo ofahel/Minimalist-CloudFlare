@@ -137,9 +137,9 @@ $CloudFlare->deleteRecord($record_id);
 
 ## ️📑️ TODO
 
-- ~~Implement (**delete**) DNS Records️~~ (Done)
-- ~~Implement (**edit**) DNS Records~~ (Done)
-- ~~Implement (**list**) DNS Records~~ (Done)
+- ~~Implement (**delete**) DNS Records️~~  (Done ✔️)
+- ~~Implement (**edit**) DNS Records~~    (Done ✔️)
+- ~~Implement (**list**) DNS Records~~    (Done ✔️)
 
 ## Development
 
