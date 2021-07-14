@@ -26,7 +26,7 @@ As [Steve Jobs][jobs_wiki] says on the [BusinessWeek, May 25 1998][jobs_quote]
 
 ## 🎉 Installation/Usage
 
-Download the cf_api.php and put on your project folder.
+Download the cf_api.php and put it on your project folder.
 
 Follow the example and voilà.
 
