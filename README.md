@@ -130,9 +130,9 @@ $CloudFlare->deleteRecord($record_id);
 | ------------ | -------------------------------------------- | ----------------------------------------------        |
 | CURL         | Execute your own PostField to CloudFlare API | API Type, Posts (json string)                         |
 | changeZone   | Change Zone prop                             | Zone(string)                                          |
-| createRecord | Create a new Record                          | Array Keys(type, name, content, proxied)              |
-| listRecords  | List zone DNS Records                        | Array Keys(type, name, proxied, content, page, order) |
-| updateRecord | Create a new Record                          | Array Keys(type, name, content, ttl, proxied)         |
+| createRecord | Create a new Record                          | Object(type, name, content, proxied)              |
+| listRecords  | List zone DNS Records                        | Object(type, name, proxied, content, page, order) |
+| updateRecord | Create a new Record                          | Object(type, name, content, ttl, proxied)         |
 | deleteRecord | Delete a Record by their ID                  | Record ID(string)                                     |
 
 
