@@ -18,6 +18,10 @@ As [Steve Jobs][jobs_wiki] says on the [BusinessWeek, May 25 1998][jobs_quote]
 ## ⚡ Features
 
 - Easy way to manage your DNS Records.
+- Create Records.
+- Edit Records.
+- List Zone Records.
+
 - Lightest CloudFlare PHP API.
 
 ## 🎉 Installation/Usage
