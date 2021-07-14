@@ -48,7 +48,7 @@ $params = array(
 $CloudFlare->createRecord($params);
 
 
-//Edit/Update Dns Record
+//Edit or Update a DNS Record
 $record_id = "27eeb..."; //Record ID
 $params = array(
                'type' => 'A',
@@ -62,12 +62,13 @@ $CloudFlare->updateRecord($record_id, $params);
 
 //List DNS Records
 $params = array(
-              "type" => "A",
-              "name" => "something",
-              "proxied" => true,
-              "page" => 0,
-              "order" => 10,
-              "content" => true);
+              "type" => "A" /*OPTIONAL*/,
+              "name" => "something" /*OPTIONAL*/,
+              "proxied" => true /*OPTIONAL*/,
+              "page" => 0 /*OPTIONAL*/,
+              "order" => 10 /*OPTIONAL*/,
+              "content" => true /*OPTIONAL*/);
+              
 $CloudFlare->listRecords($params /*OPTIONAL*/);
 
 
@@ -123,7 +124,7 @@ $CloudFlare->deleteRecord($record_id);
 | SRV   | Specifies a port for specific services. [more...][cf_srv]                                               |
 | PTR   | Provides a domain name in reverse-lookups. [more...][cf_ptr]                                            |
 
-## API Methods
+## 🧭 API Methods
 
 | Method       | Description                                  | Parameters                                            |
 | ------------ | -------------------------------------------- | ----------------------------------------------        |
@@ -141,7 +142,7 @@ $CloudFlare->deleteRecord($record_id);
 - ~~Implement (**edit**) DNS Records~~    (Done ✔️)
 - ~~Implement (**list**) DNS Records~~    (Done ✔️)
 
-## Development
+## 👨‍💻 Development
 
 Want to contribute? Great!
 You are welcome 🥳
