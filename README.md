@@ -81,14 +81,14 @@ $CloudFlare->deleteRecord($record_id);
 
 ## ✨ Create Record Parameters
 
-| Parameter | Description                                              | Rule         | Default |
-| --------- | -------------------------------------------------------- | ------------ | ------- |
-| type      | More details on **Supported Types of DNS Records table** | **Needed**   |         |
-| name      | The name of the DNS Record                               | **Needed**   |         |
-| content   | The content of the DNS Record                            | **Needed**   |         |
-| ttl       | Time to Live of the DNS Record                           | **Optional** | 120     |
-| priority  | Priority are used by MX Hosts, check your host tutorial  | **Optional** | 10      |
-| proxied   | Record proxied by CloudFlare                             | **Optional** | true    |
+| Parameter | Description                                              | Rule         | Default | Type    |
+| --------- | -------------------------------------------------------- | ------------ | ------- | ------- |
+| type      | More details on **Supported Types of DNS Records table** | **Needed**   |         | string  |
+| name      | The name of the DNS Record                               | **Needed**   |         | string  |
+| content   | The content of the DNS Record                            | **Needed**   |         | string  |
+| ttl       | Time to Live of the DNS Record                           | **Optional** | 120     | int     |
+| priority  | Priority are used by MX Hosts, check your host tutorial  | **Optional** | 10      | int     |
+| proxied   | Record proxied by CloudFlare                             | **Optional** | true    | boolean |
 
 ## 📄 List Records Parameters
 
@@ -103,13 +103,13 @@ $CloudFlare->deleteRecord($record_id);
 
 ## 🖊️ Edit/Update Record Parameters
 
-| Parameter | Description                                              | Rule         | Default |
-| --------- | -------------------------------------------------------- | ------------ | ------- |
-| type      | More details on **Supported Types of DNS Records table** | **Needed**   |         |
-| name      | The name of the DNS Record                               | **Needed**   |         |
-| content   | The content of the DNS Record                            | **Needed**   |         |
-| ttl       | Time to Live of the DNS Record                           | **Optional** | 120     |
-| proxied   | Record proxied by CloudFlare                             | **Optional** | true    |
+| Parameter | Description                                              | Rule         | Default | Type    |
+| --------- | -------------------------------------------------------- | ------------ | ------- | ------- |
+| type      | More details on **Supported Types of DNS Records table** | **Needed**   |         | string  |
+| name      | The name of the DNS Record                               | **Needed**   |         | string  |
+| content   | The content of the DNS Record                            | **Needed**   |         | string  |
+| ttl       | Time to Live of the DNS Record                           | **Optional** | 120     | int     |
+| proxied   | Record proxied by CloudFlare                             | **Optional** | true    | boolean |
 
 ## 🧐 Supported Types of DNS Records
 
@@ -126,14 +126,14 @@ $CloudFlare->deleteRecord($record_id);
 
 ## 🧭 API Methods
 
-| Method       | Description                                  | Parameters                                            |
-| ------------ | -------------------------------------------- | ----------------------------------------------        |
-| CURL         | Execute your own PostField to CloudFlare API | API Type, Posts (json string)                         |
-| changeZone   | Change Zone prop                             | Zone(string)                                          |
+| Method       | Description                                  | Parameters                                        |
+| ------------ | -------------------------------------------- | ----------------------------------------------    |
+| CURL         | Execute your own PostField to CloudFlare API | API Type, Posts (json string)                     |
+| changeZone   | Change Zone prop                             | Zone(string)                                      |
 | createRecord | Create a new Record                          | Object(type, name, content, proxied)              |
 | listRecords  | List zone DNS Records                        | Object(type, name, proxied, content, page, order) |
 | updateRecord | Create a new Record                          | Object(type, name, content, ttl, proxied)         |
-| deleteRecord | Delete a Record by their ID                  | Record ID(string)                                     |
+| deleteRecord | Delete a Record by their ID                  | Record ID(string)                                 |
 
 
 ## ️📑️ TODO
